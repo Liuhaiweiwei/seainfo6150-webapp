@@ -1,0 +1,17 @@
+.title{
+    color: red;
+    font-size: large;
+}
+.page{
+    font-weight: normal;
+    font-size: small;
+}
+.body{
+    background: white;
+    border: 3px solid red;
+    margin: 2rem;
+}
+.time{
+    font-weight: bold;
+    font-size: 15px;
+}

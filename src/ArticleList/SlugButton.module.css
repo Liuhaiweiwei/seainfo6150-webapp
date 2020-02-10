@@ -1,0 +1,10 @@
+.button {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    border: 0px solid white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+}
