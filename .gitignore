@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+/.seainfo6150-webapp
 
 # testing
 /coverage
