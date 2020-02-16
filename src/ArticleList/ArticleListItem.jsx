@@ -9,7 +9,7 @@ const ArticleListItem = (props) => {
   return (
       <article>
           <fieldset className={styles.body}>
-          <header className={styles.title}>
+          <header className={styles.header}>
               <h1>{article.title}</h1>
           </header>
           <body>
