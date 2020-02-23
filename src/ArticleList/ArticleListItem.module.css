@@ -1,34 +1,36 @@
-html {
-    font-size: 12px;
-  }
-
-section{
-    padding-inline-start: 15rem;
-    padding-bottom: 2rem;
-}
-
-body{
+.flexContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    min-height: 100%;
     font-family: Helvetica;
-    padding: 1rem;
+    font-size: 10px;
 }
+
 
 h1 {
-    color: rgb(208, 29, 65);
-    font-size: 40px;
-    margin: 0;
+    color: rgb(215, 15, 55);
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+
 }
 
 time {
     font-weight: bold;
     font-size: 15px;
+    margin-left: 10px;
+
 }
 
 #button{
     overflow:hidden;
-    background: red;
+    background: rgb(250, 5, 5);
     position: relative;
 }
 
 p {
-    font-size: 18px; 
+    font-size: 16px; 
+    margin-left: 10px;
 }
