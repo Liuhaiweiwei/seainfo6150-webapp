@@ -12,3 +12,18 @@ button {
     margin-right: 20px;
     margin-bottom: 40px;
 }
+
+@media (min-width: 300px) {
+    button{
+        float: center;
+        width: 50%;
+        background-color:black;
+    }
+}
+
+@media (min-width: 800px) {
+    button{
+        width: 90%;
+        background-color: coral;
+    }
+}

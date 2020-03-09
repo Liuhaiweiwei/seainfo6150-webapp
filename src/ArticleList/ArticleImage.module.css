@@ -6,3 +6,17 @@ img {
     margin-top: 10px;
     margin-left: 10px;
 }
+
+@media (max-width: 800px) {
+    img {
+        height: 110px;
+        width: 110px;
+    }
+}
+
+@media (max-height: 800px) {
+    img {
+        height: auto;
+        width: 50%;
+    }
+}
