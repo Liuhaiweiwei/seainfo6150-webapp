@@ -35,20 +35,22 @@ p {
     margin-left: 10px;
 }
 
-@media (min-width: 200px) {
-    h1{
+@media (min-width: 1000px) {
+    .image{
+        text-align: left;
+    }
+    h1 {
         font-size: 30px;
-        font-style: normal;
-        font-family: 'Times New Roman', Times, serif;
     }
 
-    time {
-        font-size: 14px;
+    .flexContainer{
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column nowrap;
+        min-height: 100%;
     }
-
-    p {
-        font-size: 18px; 
-        margin-left: 10px;
-        font-family: Arial, Helvetica, sans-serif;
+    time{
+        font-size: 10px;
     }
 }
